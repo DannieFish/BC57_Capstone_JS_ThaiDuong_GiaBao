@@ -27,4 +27,5 @@ header div div a img {
 
 .carousel div img {
   width: 100%;
+  background-image: url('/images/carousel_background.png');
 }/*# sourceMappingURL=style.css.map */
