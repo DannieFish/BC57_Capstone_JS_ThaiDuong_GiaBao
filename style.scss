@@ -3,3 +3,42 @@
 $bg-black-0: black;
 //colors
 $cl-text-black-0: black;
+$cl-text-white-1: white;
+//font sizes
+$txt-small-0: 1.2rem;
+$txt-standard-0: 1.6rem;
+body{
+    font-family: 'Inter';
+}
+header {
+  div {
+    display: flex;
+    justify-content: space-between;
+    div {
+      a {
+        text-decoration: none;
+        color: $cl-text-white-1;
+        margin-left: 25px;
+        img {
+          width: 60px;
+        }
+      }
+    }
+  }
+}
+.menu {
+    padding: 25px;
+  a {
+    text-decoration: none;
+    color: $cl-text-black-0;
+    font-size: $txt-standard-0;
+    padding-left: 30px;
+  }
+}
+.carousel {
+  div {
+    img {
+      width: 100%;
+    }
+  }
+}
