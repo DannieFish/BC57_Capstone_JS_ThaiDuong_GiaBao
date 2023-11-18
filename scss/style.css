@@ -18,12 +18,20 @@ header div div a img {
 .menu {
   padding: 25px;
   padding-bottom: 100px;
+  width: 35%;
 }
-.menu a {
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu ul li .home_menu {
+  border-bottom: 2px solid black;
+}
+.menu ul li a {
   text-decoration: none;
   color: black;
   font-size: 1.6rem;
-  padding-left: 30px;
 }
 
 .carousel {
