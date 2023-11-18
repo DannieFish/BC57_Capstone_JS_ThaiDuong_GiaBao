@@ -50,6 +50,10 @@ header div div a img {
   background: #f8b653;
   border: none;
   color: white;
+  z-index: 1;
+}
+.carousel div .carousel_text button:hover {
+  cursor: pointer;
 }
 .carousel div .shoe_bg {
   width: 70%;
@@ -61,7 +65,27 @@ header div div a img {
   width: 100%;
 }
 
-.product div h1 {
+.product div .text_product {
+  padding-bottom: 50px;
+}
+.product div .text_product h1 {
   font-weight: 400;
   text-align: center;
+}
+.product div .product_list {
+  columns: 3;
+  display: flex;
+  justify-content: space-around;
+}
+.product div .product_list .product_item {
+  width: 300px;
+  height: 350px;
+  background-color: #F8F8F8;
+}
+.product div .product_list .product_item img {
+  padding-top: 50px;
+  padding-left: 35px;
+}
+.product div .product_list .product_item .product_text h4 {
+  padding-left: 20px;
 }/*# sourceMappingURL=style.css.map */
