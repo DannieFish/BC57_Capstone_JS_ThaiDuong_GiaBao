@@ -73,6 +73,9 @@ header div div a img {
   width: 100%;
 }
 
+.product {
+  padding-bottom: 70px;
+}
 .product div .text_product {
   padding-bottom: 50px;
 }
