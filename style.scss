@@ -1,13 +1,22 @@
 //variables
 //background colors
 $bg-black-0: black;
+$bg-white-1: white;
 //colors
 $cl-text-black-0: black;
 $cl-text-white-1: white;
 //font sizes
-$txt-small-0: 1.2rem;
-$txt-standard-0: 1.6rem;
-$txt-medium-0: 2.4rem;
+$txt-small: 1.2rem;
+$txt-standard: 1.6rem;
+$txt-medium: 2.4rem;
+//font weight
+$fw-0:100;
+$fw-1:200;
+$fw-2:300;
+$fw-3:400;
+$fw-4:500;
+$fw-5:600;
+$fw-6:700;
 body {
   font-family: "Inter";
 }
@@ -33,34 +42,55 @@ header {
   a {
     text-decoration: none;
     color: $cl-text-black-0;
-    font-size: $txt-standard-0;
+    font-size: $txt-standard;
     padding-left: 30px;
   }
 }
 .carousel {
+    padding-bottom: 50px;
   div {
     .carousel_text {
       .product_name {
         position: absolute;
-        margin-left: 750px;
+        margin-left: 950px;
         margin-top: 50px;
-        font-size: $txt-medium-0;
+        font-size: $txt-medium;
       }
       .product_description {
         position: absolute;
-        margin-left: 750px;
+        margin-left: 950px;
         margin-top: 100px;
-        font-size: $txt-medium-0;
+        font-size: $txt-standard;
+        
+      }
+      button {
+        position: absolute;
+        margin-left: 950px;
+        margin-top: 160px;
+        width: 150px;
+        height: 50px;
+        background: #f8b653;
+        border: none;
+        color:$cl-text-white-1 ;
       }
     }
     .shoe_bg {
-      width: 60%;
+      width: 70%;
       position: absolute;
       padding-left: 100px;
+      
     }
     img {
       position: relative;
       width: 100%;
+    }
+  }
+}
+.product{
+  div{
+    h1{
+      font-weight: $fw-3;
+      text-align: center;
     }
   }
 }

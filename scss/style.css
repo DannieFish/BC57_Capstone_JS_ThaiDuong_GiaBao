@@ -26,24 +26,42 @@ header div div a img {
   padding-left: 30px;
 }
 
+.carousel {
+  padding-bottom: 50px;
+}
 .carousel div .carousel_text .product_name {
   position: absolute;
-  margin-left: 750px;
+  margin-left: 950px;
   margin-top: 50px;
   font-size: 2.4rem;
 }
 .carousel div .carousel_text .product_description {
   position: absolute;
-  margin-left: 750px;
+  margin-left: 950px;
   margin-top: 100px;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
+}
+.carousel div .carousel_text button {
+  position: absolute;
+  margin-left: 950px;
+  margin-top: 160px;
+  width: 150px;
+  height: 50px;
+  background: #f8b653;
+  border: none;
+  color: white;
 }
 .carousel div .shoe_bg {
-  width: 60%;
+  width: 70%;
   position: absolute;
   padding-left: 100px;
 }
 .carousel div img {
   position: relative;
   width: 100%;
+}
+
+.product div h1 {
+  font-weight: 400;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
