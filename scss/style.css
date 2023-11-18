@@ -74,13 +74,14 @@ header div div a img {
 }
 .product div .product_list {
   columns: 3;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-around;
 }
 .product div .product_list .product_item {
   width: 300px;
-  height: 350px;
-  background-color: #F8F8F8;
+  height: 325px;
+  background-color: #f8f8f8;
 }
 .product div .product_list .product_item img {
   padding-top: 50px;
@@ -88,4 +89,23 @@ header div div a img {
 }
 .product div .product_list .product_item .product_text h4 {
   padding-left: 20px;
+}
+.product div .product_list .product_item .product_text h5 {
+  padding-left: 20px;
+}
+.product div .product_list .product_item .buy_product {
+  background: #dedddc;
+  display: flex;
+}
+.product div .product_list .product_item .buy_product button {
+  width: 150px;
+  height: 60px;
+  background: #f8b653;
+  border: none;
+  color: white;
+}
+.product div .product_list .product_item .buy_product h4 {
+  font-weight: 600;
+  padding-left: 80px;
+  padding-top: 15px;
 }/*# sourceMappingURL=style.css.map */
